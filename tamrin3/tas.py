@@ -4,7 +4,7 @@ count = 1
 number = random.randint(1,6)
 print("number--->",number)
 sum += number
-while number != 6 :
+while number == 6 :
     number = random.randint(1,6)
     print("number",count,":",number)
     count += 1
